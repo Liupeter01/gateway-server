@@ -291,7 +291,7 @@ grpc-1.50.2 will be downloaded automatically, and we will use boringssl instead 
 1. For Linux/Windows
 
    ```bash
-   cd FullStackChattingDemo/server
+   cd FullStackChattingDemo/gateway-server
    git submodule update --init
    cmake -Bbuild -DCMAKE_BUILD_TYPE=Release
    cmake --build build --parallel [x]
@@ -300,7 +300,7 @@ grpc-1.50.2 will be downloaded automatically, and we will use boringssl instead 
 2. For MacOS
 
    ```bash
-   cd FullStackChattingDemo/server
+   cd FullStackChattingDemo/gateway-server
    git submodule update --init
    cmake -Bbuild -DCMAKE_BUILD_TYPE=Release -DCMAKE_INCLUDE_PATH=/usr/local/include
    cmake --build build --parallel [x]
